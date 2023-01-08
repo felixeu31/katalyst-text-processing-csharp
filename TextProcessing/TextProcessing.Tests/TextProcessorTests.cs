@@ -39,6 +39,34 @@ namespace TextProcessing.Tests
             analysis.NumberOfDifferentWords.Should().Be(19);
         }
 
+        [Fact]
+        public void report_summary()
+        {
+            // Arrange
+            var textProcessor = new TextProcessor();
+
+            // Act
+            var analysis = textProcessor.Analyze(_textSample1);
+            var expected = @"Those are the top 10 words used:
+
+1. you
+2. this
+3. your
+4. to
+5. text
+6. test
+7. should
+8. practice
+9. make
+10. it
+
+The text has in total 21 words";
+
+
+            // Assert
+            analysis.ReportSummary.Should().Be(expected);
+        }
+
 
     }
 
