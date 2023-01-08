@@ -32,12 +32,13 @@ Those are the top 10 words used:
 10. it
 
 The text has in total 21 words
+
 Some side notes:
 As you may have noticed, the example assumes that You and you are the same, in other words, it's not case sensitive.
 There is no order in which the words that have the same number are listed. For example, this and it, appear once, and they are not alphabetically ordered.
 Next up, the kata starts to be a bit more complex. Make sure to complete this challenge first before going on into the second.
 
-Second challenge
+# Second challenge
 Now I would like to know how much time would it take the user to read my post, for that I should apply the following formula:
 
 (The average reading rate is actually 238, according to this study, but 200 is a nice compromise and is easier to remember.)
