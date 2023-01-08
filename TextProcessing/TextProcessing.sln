@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextProcessing.Tests", "TextProcessing.Tests\TextProcessing.Tests.csproj", "{A4E2D999-A26E-468B-AAE0-3473912C90E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextProcessing", "TextProcessing\TextProcessing.csproj", "{DEA56A30-9AC4-4D13-BFF9-AB923AA00E7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A4E2D999-A26E-468B-AAE0-3473912C90E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4E2D999-A26E-468B-AAE0-3473912C90E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4E2D999-A26E-468B-AAE0-3473912C90E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA56A30-9AC4-4D13-BFF9-AB923AA00E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA56A30-9AC4-4D13-BFF9-AB923AA00E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA56A30-9AC4-4D13-BFF9-AB923AA00E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA56A30-9AC4-4D13-BFF9-AB923AA00E7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
