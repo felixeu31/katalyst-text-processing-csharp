@@ -24,6 +24,22 @@ namespace TextProcessing.Tests
             // Assert
             analysis.NumberOfWords.Should().Be(21);
         }
+
+
+        [Fact]
+        public void number_of_different_words()
+        {
+            // Arrange
+            var textProcessor = new TextProcessor();
+
+            // Act
+            var analysis = textProcessor.Analyze(_textSample1);
+
+            // Assert
+            analysis.NumberOfDifferentWords.Should().Be(19);
+        }
+
+
     }
 
     
