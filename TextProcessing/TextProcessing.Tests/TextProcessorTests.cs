@@ -19,10 +19,10 @@ namespace TextProcessing.Tests
             var textProcessor = new TextProcessor();
 
             // Act
-            var numberOfWords = textProcessor.CountNumberOfWords(_textSample1);
+            var analysis = textProcessor.Analyze(_textSample1);
 
             // Assert
-            numberOfWords.Should().Be(21);
+            analysis.NumberOfWords.Should().Be(21);
         }
     }
 

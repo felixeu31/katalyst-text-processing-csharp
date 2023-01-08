@@ -1,10 +1,20 @@
 ﻿namespace TextProcessing
 {
-    public class TextProcessor
+    public class TextProcessor : IProcessor
     {
-        public int CountNumberOfWords(string textSample1)
+        
+
+        public TextAnalysis Analyze(string text)
         {
-            int numberOfWords = textSample1.Split(" ").Length;
+            return new TextAnalysis()
+            {
+                NumberOfWords = CountNumberOfWords(text)
+            };
+        }
+
+        private int CountNumberOfWords(string text)
+        {
+            int numberOfWords = text.Split(" ").Length;
             return numberOfWords;
         }
     }
